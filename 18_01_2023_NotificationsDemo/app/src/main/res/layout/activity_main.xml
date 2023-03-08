@@ -16,4 +16,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnInboxStyleNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InboxStyleNotification"
+       app:layout_constraintTop_toBottomOf="@id/btnSimpleNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnActionTextStyleNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ActionTextStyleNotification"
+        app:layout_constraintTop_toBottomOf="@id/btnInboxStyleNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/btnBigPictureStyleNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BigPictureStyleNotification"
+        app:layout_constraintTop_toBottomOf="@id/btnActionTextStyleNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/btnSnackBarNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SnackBarNotification"
+        app:layout_constraintTop_toBottomOf="@id/btnBigPictureStyleNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
